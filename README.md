@@ -1,16 +1,90 @@
-# React + Vite
+# TodoList App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo List application built with **React.js** and **Tailwind CSS**. The app allows users to create, edit, delete, and manage their daily tasks.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new todos
+* Edit existing todos
+* Delete todos with confirmation
+* Mark todos as completed
+* Show or hide completed todos
+* Store todos using **Local Storage**
+* Input validation
+* Responsive and clean UI
+* React Icons for action buttons
+* Todo completion counter
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js**
+* **JavaScript**
+* **Tailwind CSS**
+* **React Icons**
+* **UUID**
+* **Local Storage**
+* **Vite**
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone <your-github-repository-url>
+```
+
+### 2. Navigate to the project
+
+```bash
+cd TodoList-App
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL shown in your terminal.
+
+## Project Highlights
+
+### Local Storage
+
+Todos are saved in the browser's Local Storage, so the tasks remain available even after refreshing the page.
+
+### Show Finished
+
+Users can choose whether to display completed todos using the **Show Finished** option.
+
+### Todo Management
+
+Users can:
+
+* Add tasks
+* Edit tasks
+* Mark tasks as completed
+* Delete tasks
+* View the number of completed tasks
+
+## Future Improvements
+
+* Add dark mode
+* Add todo categories
+* Add due dates
+* Add drag-and-drop functionality
+* Add filtering by priority
+* Add backend/database support
+
+## Author
+
+**Mansi Sinha**
+
+GitHub: [mansi0sinha](https://github.com/mansi0sinha)
+v
